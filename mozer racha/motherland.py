@@ -15,15 +15,13 @@ elif(path == 'YES'):
      if(enemy == 'morocco'):
           print("those are our FKHIEND's u shouldnt attack them")
      elif(enemy == 'russia'):
-          print("SYYYKA! you are a fucking traitor KGB want to know your location")
+          print("CYYYKA BLYAAAT! you are a fucking traitor KGB want to know your location")
      elif(enemy == 'Afghanistan'):
           print("kha-kha-kha!ooh those freaking terrorists u'd better shoot them with the votkalachnikov")
-     elif(enemy == 'Albania'):
-          print("hello")
      elif(enemy == 'Australia'):
           print("hi")
      else:
-          print("hello")       
+          print("hello")
 else:
      print("you fucking donkey i said yes or no")
  
