@@ -1,11 +1,3 @@
-#author : V-M4K4R0V
-
-print("privyet!! Comrade")
-user = input("enter your name : ")
-
-print("You know what ill call you " + R_SPY)
-path = input("is it okay to call you my FKHIEND [YES]or[NO] : ").upper
-
 if(path == 'NO'):
      print("SYKAA!! GET OUT U FUCKING WESTERN SPY")
 elif(path == 'YES'):
