@@ -1,4 +1,6 @@
 #add more countries & songs
+from PIL import Image, ImageFilter
+from playsound import playsound
 
 def world_map(enemy):
      if(enemy == 'morocco'):
