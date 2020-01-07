@@ -3,6 +3,7 @@
 #more dialogs
 from PIL import Image, ImageFilter
 from playsound import playsound
+from enemies import world_map
 
 
 print("privyet!! Comrade")
@@ -22,23 +23,10 @@ path = input("is it okay to call you "  + R_SPY.readline(i) + "my FKHIEND [YES]o
 #ADD A LOOP
 if(path == 'NO'): 
      print("SYKAA!! GET OUT U FUCKING WESTERN SPY")
-elif(path == 'YES'):#ADD MORE COUNTRIES
+elif(path == 'YES'):
     print("SO! my APYR what country  u want to invade today ?")
     enemy = input("choose your enemy : ").lower()
-    if(enemy == 'morocco'):
-        print("those are our APYR's u shouldnt attack them")
-        playsound('audio.mp3')
-    elif(enemy == 'russia'):
-        print("CYYYKA BLYAAAT! you are a fucking traitor KGB want to know your location")
-        playsound('audio.mp3')
-    elif(enemy == 'Afghanistan'):
-        print("kha-kha-kha!ooh those freaking terrorists u'd better shoot them with the votkalachnikov")
-        playsound('audio.mp3')
-    elif(enemy == 'Australia'):
-        print("")
-        playsound('audio.mp3')
-    else:
-        print("try again")
+    def world_map(enemy):
 else:
     print("you fucking donkey i said yes or not" + path)
     playsound('audio.mp3') #ownage pranks ill slap ur ass like 3abas
