@@ -1,3 +1,5 @@
+def map()
+
 if(path == 'NO'):
      print("SYKAA!! GET OUT U FUCKING WESTERN SPY")
 elif(path == 'YES'):
