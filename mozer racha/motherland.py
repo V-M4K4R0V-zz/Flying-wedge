@@ -32,4 +32,4 @@ elif(path == 'YES'):
 else:
     print("you fucking donkey i said yes or not" + path)
     playsound('audio.mp3') #ownage pranks ill slap ur ass like 3abas
-R_SPY.close() #TXT FILE
+R_SPY.close() #close theTXT FILE
