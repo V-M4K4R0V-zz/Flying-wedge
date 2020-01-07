@@ -26,7 +26,9 @@ if(path == 'NO'):
 elif(path == 'YES'):
     print("SO! my APYR what country  u want to invade today ?")
     enemy = input("choose your enemy : ").lower()
+     
     def world_map(enemy):
+     
 else:
     print("you fucking donkey i said yes or not" + path)
     playsound('audio.mp3') #ownage pranks ill slap ur ass like 3abas
