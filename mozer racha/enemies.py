@@ -18,27 +18,28 @@ def world_map(enemy):
      elif(enemy == 'Australia'):
           print("")
      elif(enemy == 'Canada'):
-
+          print("")
      elif(enemy == 'China'):
-
+          print("")
      elif(enemy == 'Colombia'):
-
+          print("")
      elif(enemy == 'Cuba'):
-
+          print("")
      elif(enemy == 'Czech'):
-
+          print("")
      elif(enemy == 'Egypt'):
-
+          print("")
      elif(enemy == 'France'):
-
+          print("")
      elif(enemy == 'Germany'):
-
+          print("")
      elif(enemy == 'India'):
-
+          print("")
      elif(enemy == 'Iran'):
-
+          print("")
      elif(enemy == 'Iraq'):
-
+          print("")
      elif(enemy == 'Israel'):
-
+          print("")
      elif(enemy == 'Italy'):
+          print("")
