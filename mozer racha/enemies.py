@@ -1,10 +1,9 @@
 #add more countries & songs
-from PIL import Image, ImageFilter
-from playsound import playsound
+
 
 def world_map(enemy):
      if(enemy == 'morocco'):
-          print("those are our APYR's u shouldnt attack them")
+          print("those are our APYR's u shouldnt attack them he")
           playsound('audio.mp3')
      elif(enemy == 'russia'):
           print("CYYYKA BLYAAAT! you are a fucking traitor KGB want to know your location")
@@ -14,14 +13,9 @@ def world_map(enemy):
           playsound('audio.mp3')
      elif(enemy == 'Australia'):
           print("")
-          playsound('audio.mp3')
-     elif(enemy == 'Australia'):
-          print("")
      elif(enemy == 'Canada'):
           print("")
      elif(enemy == 'China'):
-          print("")
-     elif(enemy == 'Colombia'):
           print("")
      elif(enemy == 'Cuba'):
           print("")
@@ -43,3 +37,5 @@ def world_map(enemy):
           print("")
      elif(enemy == 'Italy'):
           print("")
+     else:
+          print("cc")
