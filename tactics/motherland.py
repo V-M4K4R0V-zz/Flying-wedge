@@ -21,7 +21,7 @@ R_SPY = open('/home/o11q/Desktop/git clone/Flying-wedge/tactics/names.txt','r')
 i = 19 #fix STRING INDEX   
 
 print("You know what ill call you " + R_SPY.readline(i))
-path = input("is it okay to call you "  + R_SPY.readline(i) + "my FKHIEND [YES]or[NO] : ").upper() #fix \n
+path = input("is it okay to call you "  + R_SPY.readline(i) + "[YES]or[NO] : ").upper() #fix \n
 
 #ADD A LOOP
 def choosing_the_enemy(path):
