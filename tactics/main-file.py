@@ -3,7 +3,7 @@
 from pathlib import Path
 from enemies import world_map
 from age import comrade_age
-
+from tur import the_map
 way1 = Path("pics")
 way2 = Path("national anthems")
 
