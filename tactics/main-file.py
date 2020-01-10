@@ -1,9 +1,11 @@
 #author : V-M4K4R0V
 #add music , graphics , national anthem
-
+from pathlib import Path
 from enemies import world_map
 from age import comrade_age
 
+way1 = Path("pics")
+way2 = Path("national anthems")
 
 print("Privyet!! Comrade")
 
@@ -21,13 +23,13 @@ R_SPY = open('/home/o11q/Desktop/git clone/Flying-wedge/tactics/names.txt','r')
 i = 19 #fix STRING INDEX   
 
 print("You know what ill call you " + R_SPY.readline(i))
-path = input("is it okay to call you "  + R_SPY.readline(i) + "[YES]or[NO] : ").upper() #fix \n
+chooose = input("is it okay to call you "  + R_SPY.readline(i) + "[YES]or[NO] : ").upper() #fix \n
 
 #ADD A LOOP
-def choosing_the_enemy(path):
-    if(path == 'NO'):
+def choosing_the_enemy(chooose):
+    if(chooose == 'NO'):
             print("SYKAA!! GET OUT U FUCKING WESTERN SPY")
-    elif(path == 'YES'):
+    elif(chooose == 'YES'):
         print("SO! my APYR what country  u want to invade today ?")
         enemy = input("choose your enemy : ").lower()
         world_map(enemy) #enemies from enemies.py
