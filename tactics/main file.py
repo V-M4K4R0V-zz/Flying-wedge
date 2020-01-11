@@ -2,7 +2,7 @@
 #add music , graphics , national anthem
 from the_recipe import ask_usr
 import turtle
-#from tkinter import *
+from tkinter import *
 
 background = "/home/o11q/Desktop/git clone/Flying-wedge/tactics/game-map/gamemap.gif"
 

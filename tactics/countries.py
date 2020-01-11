@@ -1,15 +1,19 @@
 #add more countries & songs
-
+from mplayer import Player, CmdPrefix
 
 def world_map(enemy):
+     Player.cmd_prefix = CmdPrefix.PAUSING_KEEP
+     player = Player()
      if(enemy == 'morocco'):
-          print("those are our APYR's u shouldnt attack them he")
-          #playsound('audio.mp3')
+          print("Country : Morocco")
+          print("Capital : Rabat")
+          print("population : 39M")
+          player.loadfile('natio_an_MA.mp3')
      elif(enemy == 'russia'):
-          print("CYYYKA BLYAAAT! you are a fucking traitor KGB want to know your location")
+          print("")
           #playsound('audio.mp3')
      elif(enemy == 'Afghanistan'):
-          print("kha-kha-kha!ooh those freaking terrorists u'd better shoot them with the votkalachnikov")
+          print("")
           #playsound('audio.mp3')
      elif(enemy == 'Australia'):
           print("")

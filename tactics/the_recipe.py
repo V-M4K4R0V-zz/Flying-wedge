@@ -8,7 +8,6 @@ def ask_usr():
     #names file
     name = '/home/o11q/Desktop/git clone/Flying-wedge/tactics/names.txt'
     
-    print("Privyet!! Comrade")
     comrade_user = input('Enter your name : ')
     B_year = input('Enter your birth year : ')
     age = 2020 - int(B_year)
@@ -18,7 +17,7 @@ def ask_usr():
     R_SPY = open(name,'r')
     #fix STRING INDEX i
     i = 19
-
+    print("hello! "+comrade_user)
     print("You know what ill call you " + R_SPY.readline(i))
     print("SO! what country  u want to know about?")
     enemy = input("choose a country : ").lower()
