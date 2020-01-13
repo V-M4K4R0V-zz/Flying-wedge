@@ -4,16 +4,12 @@ from the_recipe import ask_usr
 from countries import world_map
 from age import comrade_age
 from tkinter import *
-#from PIL import ImageTK,Image
-
-#background = "/home/o11q/Desktop/git clone/Flying-wedge/tactics/game-map/gamemap.gif"
 
 root=Tk()
 
-#convas=convas(root,width=1200,height=800)
-#image=ImageTK.PhotoImage(Image.open(background))
-
-#convas.create_image(0,0,anchor=NW,image=image)
-convas.pack()
+canvas = Canvas(width=1400, height=900, bg='blue')
+background = PhotoImage(file="C:\\Users\\ahmed\\Desktop\\work\\Flying-wedge\\tactics\\game-map\\new-map.png")
+canvas.create_image(0,0, image=background, anchor=NW)
+canvas.pack()
 
 root.mainloop()
